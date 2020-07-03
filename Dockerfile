@@ -1,7 +1,7 @@
 FROM alpine:3.9
 MAINTAINER Anton Wahyu <mail@anton.web.id>
 
-ENV WKHTMLTOPDF_VERSION=tags/0.12.5
+ENV WKHTMLTOPDF_VERSION=tags/0.12.6
 # install qt build packages #
 RUN apk update \
   && apk add gtk+ openssl glib fontconfig libstdc++ bash vim \
